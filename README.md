@@ -19,3 +19,8 @@ rm -rf build pyrafspec.egg-info
 
 git clone https://github.com/hypergravity/bfosc.git
 ```
+
+服务器数据下载：
+```shell
+scp -r sdb216@10.3.10.45:/home/sdb216/BHBdata/216BFOSC_ORIGINAL/BHB_216/20240105_bfosc/ /Users/sara/PycharmProjects/216telescope/data/
+```

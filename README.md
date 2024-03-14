@@ -34,7 +34,9 @@ cd BHBdata/Documents/bfosc-main/E9G10/gui
 python main.py
 ```
 数据路径在 `/home/sdb216/sdOBdata/216BFOSC/BHB_216/`
+
 处理完成后显示 `[6.0] make stats for the FEAR solutions`
+
 特别注意是否有 fear_*.dump 被 skipped，如果被跳过则手动复制时间相近的并重命名来补齐
 
 服务器运行程序报错：
@@ -44,6 +46,7 @@ mac 安装 XQuartz, 使用 `ssh -XY name@ip` 连接
 
 ### 拼接光谱
 jupyter路径：`BHBdata/Documents/pyrafspec/tutorial/bfoscE9G10_extract_splicing.ipynb`
+
 最终获得一堆 `*_splicing.fits` 文件，最后`rm *.fit` 删除原始文件。
 
 
